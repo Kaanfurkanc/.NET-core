@@ -1,0 +1,12 @@
+C:\JOBS\.NetCoreGithub\NLayerApp\NLayer.Core\bin\Debug\net6.0\NLayer.Core.deps.json
+C:\JOBS\.NetCoreGithub\NLayerApp\NLayer.Core\bin\Debug\net6.0\NLayer.Core.dll
+C:\JOBS\.NetCoreGithub\NLayerApp\NLayer.Core\bin\Debug\net6.0\NLayer.Core.pdb
+C:\JOBS\.NetCoreGithub\NLayerApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.csproj.AssemblyReference.cache
+C:\JOBS\.NetCoreGithub\NLayerApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\JOBS\.NetCoreGithub\NLayerApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.AssemblyInfoInputs.cache
+C:\JOBS\.NetCoreGithub\NLayerApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.AssemblyInfo.cs
+C:\JOBS\.NetCoreGithub\NLayerApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.csproj.CoreCompileInputs.cache
+C:\JOBS\.NetCoreGithub\NLayerApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.dll
+C:\JOBS\.NetCoreGithub\NLayerApp\NLayer.Core\obj\Debug\net6.0\refint\NLayer.Core.dll
+C:\JOBS\.NetCoreGithub\NLayerApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.pdb
+C:\JOBS\.NetCoreGithub\NLayerApp\NLayer.Core\obj\Debug\net6.0\ref\NLayer.Core.dll
