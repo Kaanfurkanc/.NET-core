@@ -8,7 +8,7 @@ namespace NLayer.Core
 {
     public class ProductFeature 
     {
-        public string Color { get; set; }
+        public string? Color { get; set; }
 
         public int Height { get; set; }
 

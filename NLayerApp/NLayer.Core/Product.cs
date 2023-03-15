@@ -8,7 +8,7 @@ namespace NLayer.Core
 {
     public class Product : BaseEntity
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         public int Stock { get; set; }
 
@@ -18,6 +18,6 @@ namespace NLayer.Core
 
         public Category Category { get; set; }
 
-        public ProductFeature ProductFeature { get; set; }
+        public ProductFeature? ProductFeature { get; set; }
     }
 }
