@@ -53,6 +53,40 @@ namespace SuperHeroAPIDotNet7.Controllers
             return NotFound("Sorry .This hero does not exist !");
         }
 
+        [HttpPost]
 
+        public async Task<ActionResult<List<SuperHero>>> AddSuperHeroAsync(SuperHero hero)
+        {
+            heroes.Add(hero);
+            return Ok(heroes);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult<List<SuperHero>>> UpdateSuperHeroAsync(int id, SuperHero hero)
+        {
+            var h = heroes.Find(x => x.Id == id);
+
+            if (h == null)
+                NotFound("Sorry . not found your entered id");
+
+            h.Name = hero.Name;
+            h.FirstName = hero.FirstName;
+            h.LastName = hero.LastName;
+            h.Place = hero.Place;
+            h.Enemy = hero.Enemy;
+            h.PowerRate = hero.PowerRate;
+      
+            return Ok(heroes);
+        }
+
+        [HttpDelete("{id}")]
+        public void DeleteSuperHero(int id)
+        {
+            foreach (var h in heroes)
+            {
+                if (h.Id == id)
+                    heroes.Remove(h);
+            }
+        }
     }
 }
