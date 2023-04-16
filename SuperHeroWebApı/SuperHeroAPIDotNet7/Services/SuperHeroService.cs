@@ -1,72 +1,53 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
+using SuperHeroAPIDotNet7.Data;
 
 namespace SuperHeroAPIDotNet7.Services
 {
     public class SuperHeroService : ISuperHeroService
     {
-        private static List<SuperHero> heroes = new List<SuperHero>
-            {
-                new SuperHero
-                {
-                    Id= 1,
-                    Name = "Batman",
-                    FirstName = "Bruce",
-                    LastName = "Wayne",
-                    Place = "Gotham",
-                    Enemy = "Joker",
-                    PowerRate= 91
-                },
-                new SuperHero
-                {
-                    Id= 2,
-                    Name = "IronMan",
-                    FirstName = "Tony",
-                    LastName = "Stark",
-                    Place = "New York City",
-                    Enemy = "Thanos",
-                    PowerRate = 97
-                }
-            };
-        public List<SuperHero> AddSuperHeroAsync(SuperHero hero)
+
+        private readonly DataContext _context;
+        public SuperHeroService(DataContext context)
         {
-            heroes.Add(hero);
+            _context= context;
+        }
+        public async Task<List<SuperHero>> AddSuperHeroAsync(SuperHero hero)
+        {
+            _context.SuperHeroes.Add(hero);
+            await _context.SaveChangesAsync();
+
+            return await _context.SuperHeroes.ToListAsync();
+        }
+
+        public async  Task<List<SuperHero>> DeleteSuperHeroAsync(int id)
+        {
+
+            var hero = await _context.SuperHeroes.FindAsync(id);
+
+            if (hero == null)
+                return null;
+
+            _context.SuperHeroes.Remove(hero);
+            await _context.SaveChangesAsync();
+
+            return await _context.SuperHeroes.ToListAsync();
+        }
+
+        public async  Task<List<SuperHero>> GetAllHeroesAsync()
+        {
+            var heroes = await  _context.SuperHeroes.ToListAsync();
             return heroes;
         }
 
-        public List<SuperHero> DeleteSuperHero(int id)
+        public async Task<SuperHero> GetByIdHeroAsync(int id)
         {
-            foreach (var h in heroes)
-            {
-                if (h.Id == id)
-                {
-                    heroes.Remove(h);
-                    return heroes;
-                }
-                    
-            }
-
-            return null;
+            var hero = await _context.SuperHeroes.FindAsync(id);
+            return hero;
         }
 
-        public List<SuperHero> GetAllHeroesAsync()
+        public async Task<SuperHero> UpdateSuperHeroAsync(int id, SuperHero hero)
         {
-            return heroes;
-        }
-
-        public SuperHero GetByIdHeroAsync(int id)
-        {
-            foreach (var h in heroes)
-            {
-                if (h.Id == id)
-                    return h;
-            };
-            // var hero = heroes.Find(x => x.Id == id);
-            return null;
-        }
-
-        public SuperHero UpdateSuperHeroAsync(int id, SuperHero hero)
-        {
-            var h = heroes.Find(x => x.Id == id);
+            var h = await _context.SuperHeroes.FindAsync(id);
 
             if (h == null)
                 return null;
@@ -77,6 +58,8 @@ namespace SuperHeroAPIDotNet7.Services
             h.Place = hero.Place;
             h.Enemy = hero.Enemy;
             h.PowerRate = hero.PowerRate;
+
+            await _context.SaveChangesAsync();
 
             return h;
         }

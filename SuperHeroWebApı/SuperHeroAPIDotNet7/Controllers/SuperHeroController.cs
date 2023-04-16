@@ -19,7 +19,7 @@ namespace SuperHeroAPIDotNet7.Controllers
         [HttpGet]
         public async Task<ActionResult<List<SuperHero>>> GetAllHeroesAsync()
         {
-            return _superHeroService.GetAllHeroesAsync();
+            return await _superHeroService.GetAllHeroesAsync();
         }
 
 
@@ -27,7 +27,7 @@ namespace SuperHeroAPIDotNet7.Controllers
         public async Task<ActionResult<SuperHero>> GetByIdHeroAsync(int id)
         {
 
-            var result = _superHeroService.GetByIdHeroAsync(id);
+            var result = await _superHeroService.GetByIdHeroAsync(id);
             if (result == null)
                 return NotFound();
 
@@ -38,7 +38,7 @@ namespace SuperHeroAPIDotNet7.Controllers
 
         public async Task<ActionResult<List<SuperHero>>> AddSuperHeroAsync(SuperHero hero)
         {
-            var result = _superHeroService.AddSuperHeroAsync(hero);
+            var result = await _superHeroService.AddSuperHeroAsync(hero);
 
             return Ok(result);
         }
@@ -46,7 +46,7 @@ namespace SuperHeroAPIDotNet7.Controllers
         [HttpPut("{id}")]
         public async Task<ActionResult<SuperHero>> UpdateSuperHeroAsync(int id, SuperHero hero)
         {
-            var result =   _superHeroService.UpdateSuperHeroAsync(id, hero);
+            var result =  await  _superHeroService.UpdateSuperHeroAsync(id, hero);
 
             if (result== null)
                 return NotFound();
@@ -57,7 +57,7 @@ namespace SuperHeroAPIDotNet7.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<List<SuperHero>>> DeleteSuperHero(int id)
         {
-           var result =  _superHeroService.DeleteSuperHero(id);
+           var result =  await _superHeroService.DeleteSuperHeroAsync(id);
 
             if (result == null)
                 return NotFound();

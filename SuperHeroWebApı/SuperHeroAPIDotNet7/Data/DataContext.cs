@@ -15,7 +15,7 @@ namespace SuperHeroAPIDotNet7.Data
                             ;Trusted_Connection=true;integrated security=true;TrustServerCertificate=True;");
         }
 
-        DbSet<SuperHero> SuperHeroes { get; set; }
+        public DbSet<SuperHero> SuperHeroes { get; set; }
 
     }
 }
