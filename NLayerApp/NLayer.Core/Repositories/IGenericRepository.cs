@@ -32,5 +32,5 @@ namespace NLayer.Core.Repositories
         //    void Delete(int id);
         //}
     
-}
+    }
 }

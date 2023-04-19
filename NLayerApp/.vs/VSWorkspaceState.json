@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\NLayer.API",
+    "\\NLayer.Core",
     "\\NLayer.Core\\Repositories",
     "\\NLayer.Core\\Services"
   ],
-  "SelectedNode": "\\NLayer.Web",
+  "SelectedNode": "\\NLayer.Core\\Services\\IService.cs",
   "PreviewInSolutionExplorer": false
 }

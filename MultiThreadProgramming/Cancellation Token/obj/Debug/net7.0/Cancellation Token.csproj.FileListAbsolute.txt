@@ -1,0 +1,33 @@
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\Cancellation Token.csproj.AssemblyReference.cache
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\Cancellation Token.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\Cancellation Token.AssemblyInfoInputs.cache
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\Cancellation Token.AssemblyInfo.cs
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\Cancellation Token.csproj.CoreCompileInputs.cache
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\Cancellation Token.MvcApplicationPartsAssemblyInfo.cs
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\Cancellation Token.MvcApplicationPartsAssemblyInfo.cache
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\bin\Debug\net7.0\appsettings.Development.json
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\bin\Debug\net7.0\appsettings.json
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\bin\Debug\net7.0\Cancellation Token.exe
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\bin\Debug\net7.0\Cancellation Token.deps.json
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\bin\Debug\net7.0\Cancellation Token.runtimeconfig.json
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\bin\Debug\net7.0\Cancellation Token.dll
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\bin\Debug\net7.0\Cancellation Token.pdb
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\staticwebassets\msbuild.Cancellation Token.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\staticwebassets\msbuild.build.Cancellation Token.props
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Cancellation Token.props
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Cancellation Token.props
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\staticwebassets.build.json
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\staticwebassets.development.json
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\scopedcss\bundle\Cancellation Token.styles.css
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\Cancellation Token.csproj.CopyComplete
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\Cancellation Token.dll
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\refint\Cancellation Token.dll
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\Cancellation Token.pdb
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\Cancellation Token.genruntimeconfig.cache
+C:\Jobs\DotNetRepo\MultiThreadProgramming\Cancellation Token\obj\Debug\net7.0\ref\Cancellation Token.dll
