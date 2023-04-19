@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KZzoH41Swp6oaVfFZRPAmt2CIoBK48vxXgqWXka11lJ79e2eyL/qbFyTv+yyYdiuXbB9+t1eZTBhsNKxAy7Q6A==",
+  "dgSpecHash": "K8kVdzs6kogAUGwdfjP7Nqu8owqqo9NoMHYKSEI/JxBbhlB9LLMgoCXvIS9hK7iorfcQv5/QTrdoLaK+Rp+0/Q==",
   "success": true,
-  "projectFilePath": "C:\\JOBS\\.NetCoreGithub\\NLayerApp\\NLayer.Core\\NLayer.Core.csproj",
+  "projectFilePath": "C:\\Jobs\\DotNetRepo\\NLayerApp\\NLayer.Core\\NLayer.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

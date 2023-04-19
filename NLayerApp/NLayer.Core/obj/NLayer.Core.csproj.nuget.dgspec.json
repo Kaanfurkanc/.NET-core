@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\JOBS\\.NetCoreGithub\\NLayerApp\\NLayer.Core\\NLayer.Core.csproj": {}
+    "C:\\Jobs\\DotNetRepo\\NLayerApp\\NLayer.Core\\NLayer.Core.csproj": {}
   },
   "projects": {
-    "C:\\JOBS\\.NetCoreGithub\\NLayerApp\\NLayer.Core\\NLayer.Core.csproj": {
+    "C:\\Jobs\\DotNetRepo\\NLayerApp\\NLayer.Core\\NLayer.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\JOBS\\.NetCoreGithub\\NLayerApp\\NLayer.Core\\NLayer.Core.csproj",
+        "projectUniqueName": "C:\\Jobs\\DotNetRepo\\NLayerApp\\NLayer.Core\\NLayer.Core.csproj",
         "projectName": "NLayer.Core",
-        "projectPath": "C:\\JOBS\\.NetCoreGithub\\NLayerApp\\NLayer.Core\\NLayer.Core.csproj",
-        "packagesPath": "C:\\Users\\kaan\\.nuget\\packages\\",
-        "outputPath": "C:\\JOBS\\.NetCoreGithub\\NLayerApp\\NLayer.Core\\obj\\",
+        "projectPath": "C:\\Jobs\\DotNetRepo\\NLayerApp\\NLayer.Core\\NLayer.Core.csproj",
+        "packagesPath": "C:\\Users\\kcakiroglu\\.nuget\\packages\\",
+        "outputPath": "C:\\Jobs\\DotNetRepo\\NLayerApp\\NLayer.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kcakiroglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

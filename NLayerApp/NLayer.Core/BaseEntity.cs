@@ -11,9 +11,7 @@ namespace NLayer.Core
 
         // abstract class : can't create new object at abstract class . 
         public int Id { get; set; }
-
         public DateTime CreatedDate { get; set; }
-
         public DateTime UpdatedDate { get; set; }
     }
 }

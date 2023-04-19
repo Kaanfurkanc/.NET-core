@@ -63,19 +63,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kaan\\.nuget\\packages\\": {}
+    "C:\\Users\\kcakiroglu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\JOBS\\.NetCoreGithub\\NLayerApp\\NLayer.Web\\NLayer.Web.csproj",
+      "projectUniqueName": "C:\\Jobs\\DotNetRepo\\NLayerApp\\NLayer.Web\\NLayer.Web.csproj",
       "projectName": "NLayer.Web",
-      "projectPath": "C:\\JOBS\\.NetCoreGithub\\NLayerApp\\NLayer.Web\\NLayer.Web.csproj",
-      "packagesPath": "C:\\Users\\kaan\\.nuget\\packages\\",
-      "outputPath": "C:\\JOBS\\.NetCoreGithub\\NLayerApp\\NLayer.Web\\obj\\",
+      "projectPath": "C:\\Jobs\\DotNetRepo\\NLayerApp\\NLayer.Web\\NLayer.Web.csproj",
+      "packagesPath": "C:\\Users\\kcakiroglu\\.nuget\\packages\\",
+      "outputPath": "C:\\Jobs\\DotNetRepo\\NLayerApp\\NLayer.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kcakiroglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -89,8 +89,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\JOBS\\.NetCoreGithub\\NLayerApp\\NLayer.Service\\NLayer.Service.csproj": {
-              "projectPath": "C:\\JOBS\\.NetCoreGithub\\NLayerApp\\NLayer.Service\\NLayer.Service.csproj"
+            "C:\\Jobs\\DotNetRepo\\NLayerApp\\NLayer.Service\\NLayer.Service.csproj": {
+              "projectPath": "C:\\Jobs\\DotNetRepo\\NLayerApp\\NLayer.Service\\NLayer.Service.csproj"
             }
           }
         }
@@ -123,7 +123,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
