@@ -3,12 +3,25 @@ using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading;
 
-// MultiThreading Programming
+// MultiThreading Programlama prensibi konsol uygulamasında basit metodlar ile uygulama . 
 
 namespace ConsoleApp1 
 {
     internal class Program
     {
+        public static long CalculateFactorial(long number)
+        {
+            long factorial = 1;
+
+            while (number > 1)
+            {
+                factorial *= number;
+                number--;
+            }
+            Console.WriteLine($"\n\n\n\n\nFactorial = {factorial} Thread id : {Thread.CurrentThread.ManagedThreadId}");
+
+            return factorial;
+        }
         public static void TestMethod()
         {
             int threadId = Thread.CurrentThread.ManagedThreadId;
@@ -24,11 +37,11 @@ namespace ConsoleApp1
             Console.WriteLine($"Random Number = {num} thread 2:{threadId}");
         }
 
-        public static void PrintNumbers() 
+        public static void PrintNumbers()
         {
             int threadId = Thread.CurrentThread.ManagedThreadId;
-            
-            for ( int i = 0; i < 10; i++ )
+
+            for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine($"Number = {i}  thread 3 :{threadId}");
             }
@@ -44,20 +57,20 @@ namespace ConsoleApp1
             return content.Length;
 
         }
-        public static void PrintNames(List<string> names )
+        public static void PrintNames(List<string> names)
         {
             int thredId = Thread.CurrentThread.ManagedThreadId;
-            foreach ( string name in names )
-            { 
+            foreach (string name in names)
+            {
                 Console.WriteLine(name);
             }
 
         }
         static void Main(string[] args)
         {
-            List<string> names = new List<string>() {"Kaan","Furkan"};
+            List<string> names = new List<string>() { "Kaan", "Furkan" };
 
-            Console.WriteLine("UI Thread id         : "+Thread.CurrentThread.ManagedThreadId);
+            Console.WriteLine("UI Thread id         : " + Thread.CurrentThread.ManagedThreadId);
 
             var url = "https://www.google.com.tr/?hl=tr";
 
@@ -65,6 +78,8 @@ namespace ConsoleApp1
             Thread thread2 = new Thread(GiveMeNumber);
             Thread thread3 = new Thread(PrintNumbers);
             Thread thread4 = new Thread(() => PrintNames(names));
+
+            Thread newThread = new Thread(() => CalculateFactorial(50));
 
 
             thread3.Start();
@@ -74,6 +89,15 @@ namespace ConsoleApp1
 
             var data = GetWebPageLength(url);
             Console.WriteLine(data);
-        }
+
+            // Task.Run(); metodu parametre olarak aldığı bir lambda ifadesi veya fonksiyounu, yeni bir thread üzerinde çalıştırır .
+            //Ve işlemin sonucunda Task döndürür .
+
+            var k = Task.Run(() => CalculateFactorial(50));
+
+            Console.WriteLine(k);
+
+            newThread.Start();
+        } 
     }
 }
