@@ -6412,19 +6412,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kaan\\.nuget\\packages\\": {}
+    "C:\\Users\\kcakiroglu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\JOBS\\DotnetRepository\\Caching\\InMemoryApp.Web\\InMemoryApp.Web.csproj",
+      "projectUniqueName": "C:\\Jobs\\dotnetRepo\\Caching\\InMemoryApp.Web\\InMemoryApp.Web.csproj",
       "projectName": "InMemoryApp.Web",
-      "projectPath": "C:\\JOBS\\DotnetRepository\\Caching\\InMemoryApp.Web\\InMemoryApp.Web.csproj",
-      "packagesPath": "C:\\Users\\kaan\\.nuget\\packages\\",
-      "outputPath": "C:\\JOBS\\DotnetRepository\\Caching\\InMemoryApp.Web\\obj\\",
+      "projectPath": "C:\\Jobs\\dotnetRepo\\Caching\\InMemoryApp.Web\\InMemoryApp.Web.csproj",
+      "packagesPath": "C:\\Users\\kcakiroglu\\.nuget\\packages\\",
+      "outputPath": "C:\\Jobs\\dotnetRepo\\Caching\\InMemoryApp.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kcakiroglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6466,6 +6466,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.17, 5.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -6474,7 +6492,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
