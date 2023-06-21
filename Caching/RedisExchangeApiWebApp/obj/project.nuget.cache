@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ckrw7dlSzeERGTYKj+oUjxc0IXdkVg/3/riYRgIxKWeIRt5fqYuiura3Hk01Mlbk6Bovzp9/BSOQRaWNHjIxlw==",
+  "success": true,
+  "projectFilePath": "C:\\Jobs\\dotnetRepo\\Caching\\RedisExchangeApiWebApp\\RedisExchangeApiWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kcakiroglu\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\kcakiroglu\\.nuget\\packages\\stackexchange.redis\\2.6.116\\stackexchange.redis.2.6.116.nupkg.sha512",
+    "C:\\Users\\kcakiroglu\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
