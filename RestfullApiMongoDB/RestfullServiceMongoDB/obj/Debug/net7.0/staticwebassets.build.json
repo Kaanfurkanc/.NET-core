@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bT+XUncbFjy4B36GCpmEQZQycV7U3Id3E+Ww435F9zA=",
+  "Source": "RestfullServiceMongoDB",
+  "BasePath": "_content/RestfullServiceMongoDB",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
