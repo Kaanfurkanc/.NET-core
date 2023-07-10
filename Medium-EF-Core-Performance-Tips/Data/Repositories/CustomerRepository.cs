@@ -33,7 +33,7 @@ namespace Data.Repositories
 
         public async Task<IEnumerable<Customer>> GetAllAsync()
         {
-            return await customerSet.ToListAsync();
+            return await customerSet.AsNoTracking().ToListAsync();
         }
 
         public async Task<Customer> GetByIdAsync(int id)
@@ -53,6 +53,3 @@ namespace Data.Repositories
         }
     }
 }
-Jwt ile iam service imi tamamladım . Ufak bir iki authorize işlemi kaldı . 
-Şuan ef core performance tips üzerine araştırma yapıyorum . Araştırmalarımı medium da yayınlamak üzere makaleye döküyorum . Bitirdiğimde sizinle paylaşacağım 
-Geçen hafta sizinle konuşmuştuk her hafta bir design pattern üzerine çalışma

@@ -1,4 +1,5 @@
-﻿using Core.Entity;
+﻿using Core.Entities;
+using Core.Entity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -27,5 +28,6 @@ namespace Data
         }
 
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }
