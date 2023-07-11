@@ -14,9 +14,10 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
-builder.Services.AddDbContext<DataContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString")));
-
+builder.Services.AddDbContextPool<DataContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString"))
+               .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)
+);
 
 
 var app = builder.Build();
