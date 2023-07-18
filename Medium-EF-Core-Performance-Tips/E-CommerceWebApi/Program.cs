@@ -14,9 +14,9 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
-builder.Services.AddDbContextPool<DataContext>(options =>
+builder.Services.AddDbContext<DataContext>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString"))
-               .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)
+        .UseLazyLoadingProxies()
 );
 
 

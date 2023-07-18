@@ -14,6 +14,34 @@ namespace Data.Repositories
     {
         private readonly DataContext _dataContext;
 
+        //Compiled Query
+        private static  Func<DataContext, int, Task<Product?>> GetByIdCompiledQuery = 
+                 EF.CompileAsyncQuery(
+                    (DataContext context, int id) => context.Products.AsNoTracking().FirstOrDefault(_ => _.Id == id));
+
+
+        public async Task<Product?> GetProductByIdWCompiledQuery(int id)
+        {
+            return await GetByIdCompiledQuery.Invoke(_dataContext, id);
+        }
+
+        public IEnumerable<Product> GetExpensiveProductsWithCompiledQuery()
+        {
+            var compiledQuery = EF.CompileQuery((DataContext context) => context.Products.AsNoTracking().Where(p => p.Price > 1000));
+
+            using (DataContext context = new DataContext())
+            {
+                var expensiveProducts = compiledQuery.Invoke(context);
+                return expensiveProducts;
+            }
+        }
+
+        public async Task<Product?> GetByIdAsync(int id)
+        {
+            return await _dataContext.Products.SingleOrDefaultAsync(_ => _.Id == id);
+            // Not : If there are many datas by id , SingleOrDefault method throws exception .
+        }
+
         public ProductRepository(DataContext dataContext)
         {
             _dataContext = dataContext;
@@ -42,14 +70,6 @@ namespace Data.Repositories
             return await _dataContext.Products.ToListAsync();
         }
 
-        public async Task<Product> GetByIdAsync(int id)
-        {
-
-            return await _dataContext.Products.AsNoTracking().SingleOrDefaultAsync(_ => _.Id == id);
-
-            // Not : If there are many datas by id , SingleOrDefault method throws exception .
-        }
-
         public async void Update(Product product)
         {
             _dataContext.Products.Update(product);
@@ -58,6 +78,11 @@ namespace Data.Repositories
         public IQueryable<Product> Where(Expression<Func<Product, bool>> expression)
         {
             return _dataContext.Products.Where(expression).AsNoTracking();
+        }
+
+        public async Task<IEnumerable<Product?>> GetPopularProductsAsync()
+        {
+            return await _dataContext.Products.FromSql($"EXECUTE dbo.GetMost").ToListAsync();
         }
     }
 }

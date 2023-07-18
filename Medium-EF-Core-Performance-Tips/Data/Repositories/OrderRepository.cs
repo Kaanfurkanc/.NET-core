@@ -32,7 +32,12 @@ namespace Data.Repositories
 
         public async Task<IEnumerable<Order>> GetAllAsync()
         {
-            return await _orders.ToListAsync();
+            var orders = await _dataContext.Orders
+                    .Include(order => order.Products)
+                    .AsSplitQuery()
+                    .ToListAsync();
+
+            return orders;
         }
 
         public async Task<Order> GetByIdAsync(int id)
@@ -43,6 +48,23 @@ namespace Data.Repositories
         public void Update(Order order)
         {
             _orders.Update(order);
+        }
+
+        public async Task<IEnumerable<Order>> UseEagerLoadingAsync()
+        {
+            var orders = await _dataContext.Orders
+                                .Include(order => order.Products)
+                                .OrderBy(o =>  o.Code)
+                                .ToListAsync();
+            return orders;
+        }
+
+        public async Task<IEnumerable<Product>> UseLazyLoadingAsync(int id)
+        {
+            var order = await _dataContext.Orders.SingleOrDefaultAsync(_ => _.Id == id);
+
+            var orderProducts = order.Products; 
+            return orderProducts;
         }
 
         public IQueryable<Order> Where(Expression<Func<Order, bool>> expression)

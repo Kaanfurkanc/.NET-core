@@ -12,6 +12,9 @@ namespace Core.Interfaces
     public interface IOrderRepository
     {
         Task<IEnumerable<Order>> GetAllAsync();
+
+        Task<IEnumerable<Order>> UseEagerLoadingAsync();
+        Task<IEnumerable<Product>> UseLazyLoadingAsync(int id);
         Task<Order> GetByIdAsync(int id);
         Task CreateAsync(Order order);
         IQueryable<Order> Where(Expression<Func<Order, bool>> expression);

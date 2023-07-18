@@ -12,7 +12,8 @@ namespace Core.Interfaces
     {
         Task<IEnumerable<Product>> GetAllAsync();
         Task<IEnumerable<Product>> GetAllAsync(int page, int pageSize);
-        Task<Product> GetByIdAsync(int id);
+        Task<Product?> GetByIdAsync(int id);
+        Task<IEnumerable<Product?>> GetPopularProductsAsync();
         Task CreateAsync(Product product);
         IQueryable<Product> Where(Expression<Func<Product, bool>> expression);
         void Update(Product product);
