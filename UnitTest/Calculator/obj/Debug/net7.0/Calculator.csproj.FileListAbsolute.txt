@@ -1,0 +1,15 @@
+C:\JOBS\DotnetRepository\UnitTest\Calculator\bin\Debug\net7.0\Calculator.exe
+C:\JOBS\DotnetRepository\UnitTest\Calculator\bin\Debug\net7.0\Calculator.deps.json
+C:\JOBS\DotnetRepository\UnitTest\Calculator\bin\Debug\net7.0\Calculator.runtimeconfig.json
+C:\JOBS\DotnetRepository\UnitTest\Calculator\bin\Debug\net7.0\Calculator.dll
+C:\JOBS\DotnetRepository\UnitTest\Calculator\bin\Debug\net7.0\Calculator.pdb
+C:\JOBS\DotnetRepository\UnitTest\Calculator\obj\Debug\net7.0\Calculator.csproj.AssemblyReference.cache
+C:\JOBS\DotnetRepository\UnitTest\Calculator\obj\Debug\net7.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\JOBS\DotnetRepository\UnitTest\Calculator\obj\Debug\net7.0\Calculator.AssemblyInfoInputs.cache
+C:\JOBS\DotnetRepository\UnitTest\Calculator\obj\Debug\net7.0\Calculator.AssemblyInfo.cs
+C:\JOBS\DotnetRepository\UnitTest\Calculator\obj\Debug\net7.0\Calculator.csproj.CoreCompileInputs.cache
+C:\JOBS\DotnetRepository\UnitTest\Calculator\obj\Debug\net7.0\Calculator.dll
+C:\JOBS\DotnetRepository\UnitTest\Calculator\obj\Debug\net7.0\refint\Calculator.dll
+C:\JOBS\DotnetRepository\UnitTest\Calculator\obj\Debug\net7.0\Calculator.pdb
+C:\JOBS\DotnetRepository\UnitTest\Calculator\obj\Debug\net7.0\Calculator.genruntimeconfig.cache
+C:\JOBS\DotnetRepository\UnitTest\Calculator\obj\Debug\net7.0\ref\Calculator.dll
