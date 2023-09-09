@@ -38,7 +38,7 @@ namespace BookWebApiTest
         [Theory]
         [InlineData("ab2bd817-98cd-4cf3-a80a-53ea0cd9c200", "ab2bd817-98cd-4cf3-a80a-53ea0cd9c202")]
 
-        public void GetByIdtest(string? guid1,string? guid2)
+        public void GetByIdtest(string guid1,string guid2)
         { 
             // Arrange 
             var validGuid = new Guid(guid1);
