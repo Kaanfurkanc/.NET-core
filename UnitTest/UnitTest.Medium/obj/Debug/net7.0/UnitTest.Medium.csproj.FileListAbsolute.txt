@@ -1,0 +1,14 @@
+C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\bin\Debug\net7.0\UnitTest.Medium.exe
+C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\bin\Debug\net7.0\UnitTest.Medium.deps.json
+C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\bin\Debug\net7.0\UnitTest.Medium.runtimeconfig.json
+C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\bin\Debug\net7.0\UnitTest.Medium.dll
+C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\bin\Debug\net7.0\UnitTest.Medium.pdb
+C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\obj\Debug\net7.0\UnitTest.Medium.GeneratedMSBuildEditorConfig.editorconfig
+C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\obj\Debug\net7.0\UnitTest.Medium.AssemblyInfoInputs.cache
+C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\obj\Debug\net7.0\UnitTest.Medium.AssemblyInfo.cs
+C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\obj\Debug\net7.0\UnitTest.Medium.csproj.CoreCompileInputs.cache
+C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\obj\Debug\net7.0\UnitTest.Medium.dll
+C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\obj\Debug\net7.0\refint\UnitTest.Medium.dll
+C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\obj\Debug\net7.0\UnitTest.Medium.pdb
+C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\obj\Debug\net7.0\UnitTest.Medium.genruntimeconfig.cache
+C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\obj\Debug\net7.0\ref\UnitTest.Medium.dll
