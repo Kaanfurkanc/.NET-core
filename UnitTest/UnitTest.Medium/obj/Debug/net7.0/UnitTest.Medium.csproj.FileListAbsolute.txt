@@ -12,3 +12,4 @@ C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\obj\Debug\net7.0\refint\UnitTe
 C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\obj\Debug\net7.0\UnitTest.Medium.pdb
 C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\obj\Debug\net7.0\UnitTest.Medium.genruntimeconfig.cache
 C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\obj\Debug\net7.0\ref\UnitTest.Medium.dll
+C:\JOBS\DotnetRepository\UnitTest\UnitTest.Medium\obj\Debug\net7.0\UnitTest.Medium.sourcelink.json

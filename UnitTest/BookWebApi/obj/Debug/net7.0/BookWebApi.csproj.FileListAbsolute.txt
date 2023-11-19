@@ -31,3 +31,4 @@ C:\JOBS\DotnetRepository\UnitTest\BookWebApi\obj\Debug\net7.0\refint\BookWebApi.
 C:\JOBS\DotnetRepository\UnitTest\BookWebApi\obj\Debug\net7.0\BookWebApi.pdb
 C:\JOBS\DotnetRepository\UnitTest\BookWebApi\obj\Debug\net7.0\BookWebApi.genruntimeconfig.cache
 C:\JOBS\DotnetRepository\UnitTest\BookWebApi\obj\Debug\net7.0\ref\BookWebApi.dll
+C:\JOBS\DotnetRepository\UnitTest\BookWebApi\obj\Debug\net7.0\BookWebApi.sourcelink.json

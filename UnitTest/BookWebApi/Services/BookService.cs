@@ -44,7 +44,8 @@ namespace BookWebApi.Services
 
         public IEnumerable<Book> GetAll()
         {
-            return _books;
+            var books = MockData.GetTestBookItems();
+            return books;
         }
 
         public Book? GetById(Guid id)
